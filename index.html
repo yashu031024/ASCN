@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASCN</title>
+  <meta name="description" content="Adhishakthi Shree Chamundeshwari Nursery - quality indoor, outdoor, flowering and medicinal plants for your home and garden.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>🌿</span> Adhishakthi Shree Chamundeshwari <b>Nursery</b></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#plants">Plants</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Visit Nursery</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">🌱 Growing happiness since 2010</p>
+          <h1>Bring <span>Nature</span><br>Home.</h1>
+          <p class="hero-copy">Beautiful, healthy plants for homes, offices and gardens. Discover greenery that makes every space feel alive.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#plants">Explore Plants →</a>
+            <a class="btn secondary" href="#contact">Contact Us</a>
+          </div>
+          <div class="trust">
+            <div><strong>500+</strong><span>Plant Varieties</span></div>
+            <div><strong>10K+</strong><span>Happy Customers</span></div>
+            <div><strong>15+</strong><span>Years Experience</span></div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="sun"></div>
+          <div class="plant-illustration">
+            <div class="pot"></div>
+            <div class="stem s1"></div><div class="stem s2"></div><div class="stem s3"></div>
+            <div class="leaf l1"></div><div class="leaf l2"></div><div class="leaf l3"></div>
+            <div class="leaf l4"></div><div class="leaf l5"></div><div class="leaf l6"></div>
+          </div>
+          <div class="badge">100%<small>Healthy Plants</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container split">
+        <div class="about-image">
+          <div class="image-card">🌴</div>
+          <div class="experience"><strong>15+</strong><span>Years of<br>Green Living</span></div>
+        </div>
+        <div class="section-copy">
+          <p class="eyebrow">ABOUT Adhishakthi Shree Chamundeshwari Nursery</p>
+          <h2>We grow more than plants. <span>We grow joy.</span></h2>
+          <p>Adhishakthi Shree Chamundeshwari Nursery is a friendly destination for plant lovers. We carefully grow and source healthy plants so you can create a greener, calmer and more beautiful space.</p>
+          <p>Whether you are a beginner or a gardening enthusiast, our team is here to help you choose the right plant and learn how to care for it.</p>
+          <div class="features">
+            <div>✓ Healthy & quality plants</div>
+            <div>✓ Expert gardening advice</div>
+            <div>✓ Affordable prices</div>
+            <div>✓ Home & garden solutions</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plants" class="section plants">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">OUR COLLECTION</p><h2>Find your perfect <span>plant.</span></h2></div>
+          <p>From easy-care indoor plants to colorful flowering plants, there is something for every green space.</p>
+        </div>
+        <div class="plant-grid">
+          <article class="plant-card"><div class="plant-photo indoor">🌿</div><div class="card-body"><span>Indoor</span><h3>Money Plant</h3><p>Easy to grow and perfect for homes.</p><div><strong>₹100</strong><button onclick="addToCart('Money Plant')">Add to Cart</button></div></div></article>
+          <article class="plant-card"><div class="plant-photo flowering">🌸</div><div class="card-body"><span>Flowering</span><h3>Rose Plant</h3><p>Beautiful blooms for your garden.</p><div><strong>₹80</strong><button onclick="addToCart('Rose Plant')">Add to Cart</button></div></div></article>
+          <article class="plant-card"><div class="plant-photo indoor">🪴</div><div class="card-body"><span>Indoor</span><h3>Snake Plant</h3><p>Low-maintenance and air-friendly.</p><div><strong>₹100</strong><button onclick="addToCart('Snake Plant')">Add to Cart</button></div></div></article>
+          <article class="plant-card"><div class="plant-photo outdoor">🌳</div><div class="card-body"><span>Outdoor</span><h3>Areca Palm</h3><p>A fresh tropical touch for your space.</p><div><strong>₹500</strong><button onclick="addToCart('Areca Palm')">Add to Cart</button></div></div></article>
+          <article class="plant-card"><div class="plant-photo medicinal">🌱</div><div class="card-body"><span>Medicinal</span><h3>Tulsi Plant</h3><p>A traditional plant for Indian homes.</p><div><strong>₹30</strong><button onclick="addToCart('Tulsi Plant')">Add to Cart</button></div></div></article>
+          <article class="plant-card"><div class="plant-photo flowering">🌺</div><div class="card-body"><span>Flowering</span><h3>Hibiscus</h3><p>Bright flowers for balconies and gardens.</p><div><strong>₹120</strong><button onclick="addToCart('Hibiscus')">Add to Cart</button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow">WHAT WE DO</p><h2>More than just a <span>nursery.</span></h2><p>Complete plant and garden solutions from people who love greenery.</p></div>
+        <div class="service-grid">
+          <div class="service"><div>🌱</div><h3>Plant Consultation</h3><p>Get expert help choosing plants based on your light, space and lifestyle.</p></div>
+          <div class="service"><div>🏡</div><h3>Garden Design</h3><p>We help transform balconies, homes and outdoor spaces into beautiful gardens.</p></div>
+          <div class="service"><div>✂️</div><h3>Plant Maintenance</h3><p>Pruning, repotting and regular care to keep your plants healthy.</p></div>
+          <div class="service"><div>🚚</div><h3>Home Delivery</h3><p>Safe delivery of selected plants, pots and gardening supplies to your door.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow">OUR NURSERY</p><h2>A little <span>green inspiration.</span></h2></div>
+        <div class="gallery-grid">
+          <div class="gallery-item g1">🌴<span>Green corners</span></div>
+          <div class="gallery-item g2">🌺<span>Flowering plants</span></div>
+          <div class="gallery-item g3">🪴<span>Indoor collection</span></div>
+          <div class="gallery-item g4">🌿<span>Garden plants</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><p class="eyebrow">READY TO GO GREEN?</p><h2>Let's grow something beautiful together.</h2></div>
+        <a class="btn light" href="https://wa.me/9945367264" target="_blank">Talk to Our Team →</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container split">
+        <div class="section-copy">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Come say <span>hello.</span></h2>
+          <p>Visit our nursery, explore the collection and let us help you find the perfect plants.</p>
+          <div class="contact-info">
+            <p>📍 <strong>Address</strong><br>No #86, Bogadhi 2nd Stage, opp Amruthanandamai Bus Stop, Gaddige Main Road, Bogadhi, Mysuru-570026.</p>
+            <p>📞 <strong>Phone</strong><br>9945367264-9845448693-7975803419</p>
+            <p>✉️ <strong>Email</strong><br>yashu031024@gmail.com</p>
+            <p>🕘 <strong>Opening Hours</strong><br>Mon – Sun: 8:00 AM – 7:00 PM</p>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="submitForm(event)">
+          <h3>Send us a message</h3>
+          <input id="name" type="text" placeholder="Your name" required>
+          <input id="email" type="email" placeholder="Email address" required>
+          <select id="interest"><option value="">What are you interested in?</option><option>Indoor plants</option><option>Outdoor plants</option><option>Flowering plants</option><option>Garden design</option><option>Plant maintenance</option></select>
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button class="btn primary" type="submit">Send Message →</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home"><span>🌿</span> Adhishakthi Shree Chamundeshwari Nursery</a>
+      <p>© 2010 Adhishakthi Shree Chamundeshwari Nursery. Made with 🌱 for plant lovers.</p>
+      <div class="social"><a href="https://www.instagram.com/nursery_570026?stkn=ZHplMTJpY3Bja2Z4&utm_source=qr">Instagram</a><a href="https://wa.me/9008323117">WhatsApp</a><a href="https://l.instagram.com/?u=https%3A%2F%2Fmaps.app.goo.gl%2F3y34mv18Qm26piTv9%3Fg_st%3Daw%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafdcnbgsbHtPdvavnw26JxW7NHRmJlUUr7JRDxj5L453-AdFta31hgLxGpASQ_aem_tN1V_Bgxqe0NOZw5U3o8eA&e=AUDywVF22xMZKIN9FGq62hsT4U2u4wxniJA5arqyaAeCKjaKJRqd7wS4eLY4i_iArJ5-GLC_VF_pr-Yt9uy34rgwtnbtDTNZzfOYGXbRDn8ZgsRBKiKZ1vSN3nlOCrlUXi05J4Q89j1cDd2ocEzKFF0">Location</a></div>
+    </div>
+  </footer>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
